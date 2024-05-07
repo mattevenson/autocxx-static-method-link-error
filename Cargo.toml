@@ -1,0 +1,12 @@
+[package]
+name = "autocxx-static-method-link-error"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+autocxx = "0.26.0"
+cxx = "1.0"
+
+[build-dependencies]
+autocxx-build = "0.26.0"
+miette = { version = "5", features = ["fancy"] }
